@@ -8,6 +8,7 @@
 #intro{
     color: whitesmoke;
 }
+
 #header{
     text-align: center;
     margin-top: -3%;
@@ -130,7 +131,7 @@ h2{
 }
 .content input{
     align-items: center;
-    padding-right: ;
+  
 }
 .btnSubnitcontactMe button{
     font: bolder;
@@ -144,6 +145,7 @@ h2{
 
    display: inline;
     text-align: center;
+    padding-left: 45%;
 }
 
 .blockBG{
