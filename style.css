@@ -7,8 +7,14 @@
 
 #intro{
     color: whitesmoke;
+          text-align: center;
+   
 }
+i{
+    color: whitesmoke;
+  
 
+}
 #header{
     text-align: center;
     margin-top: -3%;
