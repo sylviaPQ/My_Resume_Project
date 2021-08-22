@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+#intro{
+    color: whitesmoke;
+}
+
+#header{
+    text-align: center;
+    margin-top: -3%;
+}
+#Login{
+    position: absolute;
+    padding-left: 54%;
+    height: 20px;
+}
+#searchBox{
+    position: absolute;
+    padding-left: 40%;
+    height: 20px;
+}
+
+
+.container{
+    width: 100%;
+    height:100%;
+    background-image: url(images/background3.png);
+    background-position: unset;
+    background-size: cover; 
+    box-sizing: border-box;
+    position: relative;
+
+}
+.navbar{
+    align-items: center;
+    width: 100%;
+    height:15vh ;
+    margin: auto;
+    display: flex;
+}
+nav{
+    flex: 1;
+    padding: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: whitesmoke;
+}
+.content h1{
+    font-size: 60px;
+    font-weight:100;
+    margin-top:28px;
+    margin-bottom:15px;
+   color: whitesmoke;
+}
+.content p{
+    font-size: 20px;
+      color: whitesmoke;
+    
+}
+.content{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: lightgrey;
+}
+a{
+    color: lightgrey;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.feature-img{
+    height: 290px;
+    width: 100%;
+    padding-left: -20%;
+    position: relative;
+    border: 2px whitesmoke solid;
+}
+.socail-links{
+   transform: none;
+   bottom: 50px;
+   margin-left: 50%;
+   
+}
+.socail-links a{
+    font-size: 12px;   
+}
+.h2{
+    font: bold;
+     color: whitesmoke;
+}
+.socail-links h3{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: whitesmoke;
+   align-items: center;
+}
+.contactMeForm{
+    max-width: 480px;
+    margin: 36px auto 0;  
+}
+.contactMe h1{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.contactMe{
+    font: bold;
+      color: whitesmoke;
+    width: 100%;
+    height:100vh;
+    background-image: url(images/lastbg4.png);
+    background-position: center;
+    background-size: cover; 
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+}
+.content input{
+    align-items: center;
+  
+}
+.btnSubnitcontactMe button{
+    font: bolder;
+    font-size: large;
+      color: whitesmoke;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.portfoliologos{
+
+   display: inline;
+    text-align: center;
+    padding-left: 45%;
+}
+
+.blockBG{
+    flex: 1;
+    align-items: center;
+    background-image: url(images/bg4.png);
+    
+}
+
+.flexit{
+    display: flex;
+    flex-direction: row;
+    background-image: url(images/flexbg.png);
+    padding-right: 50px;
+}
+.box1{
+     flex: 1;
+     border: 2px whitesmoke solid; 
+}
+.box2{
+     flex: 1;
+     border: 2px whitesmoke solid;
+}
+.box3{
+     flex: 1;
+     border: 2px whitesmoke solid;
+  
+}
+.box3 li{
+    text-align: right 70px;
+    padding-left: 16%;
+    display: inline;
+}
+.box3 li ul b{
+    text-align: right 70px;
+    padding-left: 16%;
+    display: inline;
+} 
+
