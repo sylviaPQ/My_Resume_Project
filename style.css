@@ -165,22 +165,24 @@ h2{
     display: grid;
     background-image: url(images/flexbg.png);
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
-    
-    
-    
+    column-gap: 35px;
+    grid-row: 1/10;
+    grid-auto-columns:height 100px ;
 }
+
 .box1{
      flex: 1;
-     border: 2px whitesmoke solid; 
+     border: 1px whitesmoke solid;
+   
 }
 .box2{
      flex: 1;
-     border: 2px whitesmoke solid;
+     border: 1px whitesmoke solid;
+  
 }
 .box3{
      flex: 1;
-     border: 2px whitesmoke solid;
+     border: 1px whitesmoke solid;
   
 }
 .box3 li{
