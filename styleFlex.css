@@ -161,14 +161,11 @@ h2{
     
 }
 
-.wrapper{
-    display: grid;
+.flexit{
+    display: flex;
+    flex-direction: row;
     background-image: url(images/flexbg.png);
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
-    
-    
-    
+    padding-right: 50px;
 }
 .box1{
      flex: 1;

@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
 </head>
 
 <body>
 
 
     <div class="contactMe">
-        <h1>Contact Me</h1>
+
+        <h1 style="background-image: url(images/flexbg.png);">Contact Me</h1>
+
+
+
         <form action="" method="" class="contactMeForm">
             <label for="fullName">Full Name</label>
             <input type="text" name="fullName" placeholder="Enter your full name" required><br>
@@ -23,11 +28,14 @@
             <label for="message">Message</label>
             <textarea name="message" id="queryMessage" cols="30" rows="10"
                 placeholder="Type in your message or quesry"></textarea><br>
-
-            <div class="btnSubnitcontactMe"><button>Submit</button></div>
+            <label for="checkbox">Would you like to subscribe to our news letter?</label>
+            <input type="checkbox" name="fullName" required><br>
+            <div class="btnSubnitcontactMe" style="text-align: center;"><button>Submit</button></div>
         </form>
 
     </div>
+
+
 </body>
 
 </html>
